@@ -22,7 +22,10 @@ public class Articolo {
 
     }
 
-
+    @Override
+    public String toString() {
+        return codiceArticolo + " - " + descrizioneArticolo;
+    }
     public String getCodiceArticolo() {
         return codiceArticolo;
     }

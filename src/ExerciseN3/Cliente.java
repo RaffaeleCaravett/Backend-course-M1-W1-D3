@@ -27,7 +27,10 @@ public class Cliente {
         System.out.println("data iscrizione : " + this.dataIscrizione);
     }
 
-
+    @Override
+    public String toString() {
+        return  nome + " " + cognome;
+    }
     public String getCodiceCliente() {
         return codiceCliente;
     }
